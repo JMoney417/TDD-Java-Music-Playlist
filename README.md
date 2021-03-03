@@ -6,7 +6,7 @@
 
 ## Instructions
 
-Write th first unit test in SongTest.Java:
+Write the first unit test in SongTest.Java:
 
 ```JAVA
 public class SongTest {
@@ -30,7 +30,7 @@ below criteria:
 2.  Given I have a playlist,
     When I remove a song in my playlist,
     Then it no longer appears in my playlist.
-3.  Given I have  playlist,
+3.  Given I have a playlist,
     When I move a song in the playlist order,
     Then the playlist will have a new order.
 4.  Given I have a playlist,

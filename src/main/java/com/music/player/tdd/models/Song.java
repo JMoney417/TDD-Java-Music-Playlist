@@ -37,8 +37,8 @@ public class Song {
 	}
 
 	public String getDurationPretty() {
-
-		return null;
+		long ts = length.getSeconds();
+		return String.format("%d:%02d:%02d",ts/3600,(ts-(ts/3600))/60, ts%60);
 	}
 
 }
